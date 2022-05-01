@@ -1,0 +1,10 @@
+img {
+  width: 115%;
+
+}
+
+
+.span1 { grid-area: span1;  width: 100%;
+  background-color: #10ac84;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 6px 40px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,30 @@
+.layout {
+  display: grid;
+  grid:
+    "span12 span12 span12 span12 span12 span12 span12 span12 span12 span12 span12 span12" 1fr
+    ". . . . . . . . . . . ." 1fr
+    ". . . . . . . . . . . ." 1fr
+    ". . . . span1 . . . . . . ." 1fr
+    / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.span12 { grid-area: span12; }
+.span1 { grid-area: span1;  width: 80%;
+  background-color: rgb(129, 24, 24);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: rgb(136, 18, 18);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+img {
+  width: 100%;
+}
+div.contenedor {
+  flex-direction: row;
+ text-align: center;
+  padding: 10px 20px;
+}
